@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name" translatable="false">Stock Demo</string>
+    <string name="sorted_by_code_ascending" translatable="false">Sorted By Code Ascending</string>
+    <string name="sorted_by_code_descending" translatable="false">Sorted By Code Descending</string>
+    <string name="sorted_by_name_ascending" translatable="false">Sorted By Name Ascending</string>
+    <string name="sorted_by_name_descending" translatable="false">Sorted By Name Descending</string>
+    <string name="stock_info_list">Stock Info List</string>
+    <string name="pe_ratio">PE Ratio</string>
+    <string name="dividend_yield">Dividend Yield</string>
+    <string name="pb_ratio">PB Ratio</string>
+    <string name="opening_price">Opening Price</string>
+    <string name="closing_price">Closing Price</string>
+    <string name="highest_price">Highest Price</string>
+    <string name="lowest_price">Lowest Price</string>
+    <string name="change">Change</string>
+    <string name="monthly_average_price">Monthly Average Price</string>
+    <string name="trade_value">Trade Value</string>
+    <string name="trade_volume">Trade Volume</string>
+    <string name="transaction">Transaction</string>
+    <string name="no_info_now">No Information Now!!</string>
+    <string name="confirm">Confirm</string>
+    <string name="disconnected">Internet Disconnected</string>
+</resources>
