@@ -2,8 +2,8 @@ package com.example.stockdemo.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
-val StockUpColor = Color(0xFFE53935)   // 🔴 漲
-val StockDownColor = Color(0xFF43A047) // 🟢 跌
+val StockUpColor = Color(0xFFE53935)            // 漲
+val StockDownColor = Color(0xFF43A047)          // 跌
 val StockTextPrimary = Color.Black
 val StockTextSecondary = Color.Gray
 val StockCardBackground = Color(0xFF1A1A1A)

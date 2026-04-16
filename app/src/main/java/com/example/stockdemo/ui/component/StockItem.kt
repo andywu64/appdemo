@@ -9,7 +9,6 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Info
@@ -30,7 +29,6 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.stockdemo.data.StockAll
 import com.example.stockdemo.R
 import com.example.stockdemo.data.Cell
-import com.example.stockdemo.data.StockBWIBBU
 import com.example.stockdemo.ui.theme.InfoIconColor
 import com.example.stockdemo.ui.theme.StockDownColor
 import com.example.stockdemo.ui.theme.StockTextPrimary

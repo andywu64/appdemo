@@ -9,7 +9,6 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
@@ -18,8 +17,6 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.stockdemo.data.Cell
-import com.example.stockdemo.ui.theme.StockTextPrimary
-import com.example.stockdemo.ui.theme.StockTextSecondary
 import com.example.stockdemo.viewmodel.StockAllViewModel
 import java.util.Locale
 import kotlin.collections.listOf
@@ -86,7 +83,6 @@ fun format(value: String, isDouble: Boolean = true): String {
 )
 @Composable
 fun MultiColumnRowsRowsPreview() {
-    val viewModel : StockAllViewModel = viewModel()
     MultiColumnRows(
         fontSize = 13.sp,
         rows = listOf(
